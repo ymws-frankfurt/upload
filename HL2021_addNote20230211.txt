@@ -1,0 +1,42 @@
+HL 2021
+
+Wiki: https://en.wikipedia.org/wiki/Modern_portfolio_theory
+
+
+p.2
+
+That, in turn, suggests that deliberately adding a systems focus to MPT can mitigate many of the causes of system risk that in turn are inputs into systematic market risk. Although sudden shocks to the financial markets certainly do occur (the Covid-19 pandemic is a striking case in point), these often preventable surprises are fewer than generally thought and result from a lack of understanding or a failure of will, not from an inability to prevent, or at least to mitigate, them. For example, pandemic threats have been well known and widely studied. 
+
+p.14
+CAPM adds two new assumptions to MPT, according to Fama and French. 
+CAPM operationalized MPT, as it drastically simplified the calculations necessary. Markowitz’s MPT required a risk calculation for each and every investment entity, whereas CAPM did not. 
+
+
+If we drop the assumption of risk as probability expressed in volatility, we enter a far more complex world of what Frank Knight about a hundred years ago called uncertainty (as opposed to probabilistic risk). 
+
+p.22
+Jeffrey Wurgler argues that the massive growth of indices and index-linked investing (apparent even when he wrote in 2010) distorts equity prices and traditional risk-return tradeoffs alike. One effect of the growth of index funds has been the phenomenon that Wugler calls “super portfolios,” the de facto price co-movements of numbers of stocks and portfolios as they are implicitly linked by similar investment philosophies and (MPT-based) products and techniques, responding to developments in similar ways. 
+
+
+p. 90
+As the author of the study notes, Buffett “has demonstrated unprecedented skill in selecting factors, constructing a multi- factor portfolio, and adapting the factor mix over time.” In the end, Buffett understands that the job is to produce total returns, not alpha returns or factor 
+
+
+It is not an accident that GPIF and LGIM each have more than $1 trillion dollars in assets under management. As Martin Skancke noted about Norway’s sovereign wealth fund, they have nowhere to hide from market risk and there- fore have adopted some aspects of universal owner thinking. Universal owners, whether or not they self-identify as such, intuitively (and increasingly explicitly) understand that they will be exposed to market risk and market returns for long periods and are too large to expect much of their return to come from non-marketwide systematic risk. Some come to realize that they can try to affect the real-world systemic risks that in turn cause markets to become more or less risk-averse. An additional benefit of their size is that it makes them more likely to successfully impact those real-world conditions (although as we will see later, small firms can be successful through creative use of multiple tools of intentionality). LGIM, for instance, caused a stir in 2020 when it announced its campaign against chairpersons who also served as CEOs.58 Yet dividing the Chair and CEO roles has been an issue among corporate governance cog- noscenti for more than a decade.59 LGIM’s position received attention precisely because it was large and because it announced that it would vote against Board directors at companies that continued to combine the roles. 
+
+p. 93
+The idea that universal owners influence smaller investors, retail ones inclu- ded, to consider climate change as a risk to their investments is a direct challenge to the MPT tradition. Of course, the focus on the cause of risk, rather than on volatility, challenges MPT by directly connecting the investment port- folio dots to the broadly socioeconomic ones. Put a bit differently, it would mean that investors are considering that systemic climate risk manifests in their portfolios as systematic risk, and that, potentially, continuing to hold those securities contributes to that increased volatility of betas. 
+
+p. 96
+Steve Lydenberg, the founder of TIIP and a veteran of responsible investing for more than 30 years, 
+
+p. 106
+Beta activists, by definition, try to affect systematic issues. That means that they need to influence multiple parties, both within and outside capital markets. (Hence the importance of “interconnectedness” as a tool of intentionality.) As any risk manager will tell you, frauds and abuses are more difficult to accomplish if the instigator needs to corrupt multiple parties. Therefore, the need to engage multiple investors, companies, regulators, the press, NGOs, academics, and others is an important barrier to beta activism being used for private gain at the expense of the environmental, social, and financial systems. After all, those parties benefit from improvements to the systems and would need, somehow, to be compensated to participate in an “illegitimate” beta activist effort that would harm them. Compounding that safeguard is the fact that beta activists usually represent a small portion of the capital market. 
+
+
+p. 107
+Therefore, any mitigation of sys- tematic risk resulting from stage three governance actions should result in increased asset values. It is, in effect, the counter to hyper-discounting of future cash flows or pulling risk forward irrationally. 
+
+
+p. 117
+We have long seen corporate governance activism, especially stage three activism focused on mitigating sys- tematic and systemic risk, as a layering on to MPT’s use of diversification 
