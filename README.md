@@ -14,3 +14,10 @@ https://link.springer.com/article/10.1007/s12197-023-09620-3
 
 https://link.springer.com/article/10.1007/s12197-023-09620-3
 パンデミック後に発行件数が増加したことはあるものの、2020年10月から。
+
+
+
+[GOAL2]SHOKUHIN LOSS
+https://sdgs.edutown.jp/info/goals/goals-2.html
+https://www.env.go.jp/recycle/foodloss/busi.html
+https://www.maff.go.jp/j/shokusan/recycle/syoku_loss/161227_4.html
