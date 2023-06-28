@@ -56,3 +56,7 @@ SDGsに関する情報発信や啓発活動
 これらの資料には、中小企業がSDGsに取り組むメリットや具体的な取り組み事例などが詳しく紹介されています。
 https://www.kanto.meti.go.jp/seisaku/sdgs/sdgs_ninchido_chosa.html
 
+
+
+テーブル：達成未達成
+https://zeroc.co.jp/column/sdgs-company-efforts/
