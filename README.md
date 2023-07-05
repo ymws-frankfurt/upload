@@ -67,3 +67,8 @@ https://www.tdb.co.jp/report/watching/press/p210706.html
 
 SDGsに取り組む中小企業等の先進事例の紹介
 https://www.kanto.meti.go.jp/seisaku/sdgs/sdgs_senshinjirei.html
+
+
+https://www.j-smeca.jp/attach/kenkyu/honbu/r4/sdgstorikumisien.pdf
+https://www.kanto.meti.go.jp/seisaku/sdgs/data/20181213sdgs_chosa_houkoku_syosai.pdf
+新潟：https://www.j-smeca.jp/attach/kenkyu/honbu/r4/sdgstorikumisien.pdf
