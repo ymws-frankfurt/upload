@@ -7,3 +7,7 @@
 私はこちらの関数でmethodはデフォルトのaverageにしております。minにしたらエクセルに結果と完全に合致しました
 
 https://pandas.pydata.org/docs/reference/api/pandas.Series.rank.html
+
+この設定一つで大きく変わるのでものすごい重要な課題だと考えております。いかがいたしましょうか参考までに各設定の結果をここに乗っけております
+
+web3の指標は、1832社の中で118社が1、残りが０です。
