@@ -1,17 +1,233 @@
 
-海外事例
+右図Aの部分：相関はあるものの、因果関係はない（擬似相関）
+「ライター所持」と「肺がん罹患リスク」の関係？「喫煙」との関係？
+第3の要素は交絡因子と呼ばれ、因果を推定する上で非常に厄介（後述）
+右図Cの部分：因果関係があるのに、無相関である
+ y が y = sd の関係より生じる。s が0.5の確率で 1 または –1 の値をとり、d は（適当な）確率変数
+この時、d と y には因果関係 y = f(d) がある一方で、d と y は無相関である（積率相関・順位相関）
+Baker and Wurgler (2006): 時点0での投資家センチメントsが高いとき、新興株や小型株などの企業特性dが注目され（ファンダメンタル以上の価格）、結果として時点1で得られるリターンyを低くする傾向にある。同センチメントが低いとき、このパターンは減衰または逆転する
+いくつかの企業特性dは、投資家センチメントsで条件付けしない場合には、リターンyをpredict/causeしないものの（平均化されてゼロ、無相関）、実際には強い条件付きパターンを隠し、sの条件付けで初めて見える
 
 
-TEXT-BASED NETWORK INDUSTRIES AND ENDOGENOUS PRODUCT DI ̇FFERENTIATION
-サステナ軸での競争
-サステナ の企業価値に向上することを示せれば今度はインセンティブ設計 マーケットデザインなどで RM を使って健康的な経営をしている企業が低い金利を受けることができるような設計も簡単にできる
+非財務説明変数xとサステナ関心ど（次ページのセンチメント変数の役割に該当）によって企業パフォーマンスyは変わってくる（reference. investor moderating）
 
-ビジネスマッチ サスで地震 忘れ もしくは 距離などを使って ビジネスマッチングにするようなアイデアをチャット GPT を使って聞いてみる ビジネスマッチング
+ 
+
+企業のESGスコアと企業価値の関係が大きな関心の１つ。 考えられる関係として、大まかに以下が挙げられる：
+「（相関関係のみで）因果関係はない」
+「良い業績を残しているから、善いことをする（余裕がある）」
+「善いことをすることによって、良い業績を残す」
+3番目のパターンは、具体的に右図のチャート等が考えられる
+企業のサステナ向上による、将来的なキャッシュフローの増加が企業価値向上につながる （e.g., Eccles et al., 2014; Ambec and Lanoie, 2008）
+企業のサステナ向上による、投資家が要求するリスクプレミアムの減少が企業価値向上につながる
+Eスコアが高い方が環境リスクが低いなど
+高ESG企業はマーケット危機下におけるダウンサイドリスクが抑えられる（e.g., Lins et al., 2017）
+
+====================================================================================================================
+
+
+*１A. IWA disclosre　開示（業界全体）DBS
+x there is no couterpart of product impact for ESGhttps://www.hks.harvard.edu/sites/default/files/centers/mrcbg/working.papers/194_AWP_final.pdf
+
+
+https://impacteconomyfoundation.org/wp-content/uploads/2023/03/IWAF-Summary-Impact-Economy-Foundation.pdf
+overall impact produced E and S and E
+ 　　　
+
+https://andomitsunobu.net/?p=18814
+サスラボオムロン統合報告書の課題で100％登場する「価値創造ストーリーがうまく作れない」というもの
+
+
+EU<SEC、csrdhttps://baumconsult.co.jp/2024/02/06/eu%E3%81%AEcs3d%EF%BC%86csrd%E3%81%AE%E5%BD%B1%E9%9F%BF%E3%82%92%E5%8F%97%E3%81%91%E3%82%8B%E6%97%A5%E6%9C%AC%E4%BC%81%E6%A5%AD%E3%81%AF800%E7%A4%BE%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E3%81%8B/
 
 
 
-https://www.bis.org/ifc/publ/ifcb59_26.pdf
-https://towardsdatascience.com/double-machine-learning-for-causal-inference-78e0c6111f9d
+*１B text/digital ESG disclosure（開示、全体）
+https://deliverypdf.ssrn.com/delivery.php?ID=336017068111082126078079067114088112028053007053033039065092087064115102122012100112048110119035050040030030112079111081065070007021047086002015108100068112031114024008082048006020064089069080067067105099070112073126095069077072089006095023091013122000&EXT=pdf&INDEX=TRUE
+
+https://link.springer.com/chapter/10.1007/978-3-030-66891-4_10
+- bicluster- dynamic topic modeling
+How to Talk When a Machine is Listening?: Corporate Disclosure in the Age of AI
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3683802
+https://www.nber.org/system/files/working_papers/w27950/w27950.pdf
+
+
+digital disclosureResults of the Survey of Overseas Investors（2021） 
+https://www.jpx.co.jp/english/corporate/news/news-releases/0060/b5b4pj000004aa15-att/b5b4pj000004aa2x.pdf
+
+Put a higher cost of equity on Japanese companies than would otherwise do - owing to poor disclosure. (US, Asset management company, Research) • We believe that many investors will discount Japanese stock
+開示する直接コストvs開示しないことによる間接コスト
+ There is a significant discrepancy in information betweenJapanese and English annual report, and we must have all annual reports translated fromJapanese as a result. (US, Asset management company, Investment decision)
+
+insufficient disclosure -> gen AI with english support + machine readable
+海外投資家は日本株の安定所有者 ― 統計から考える実像（2023）
+https://www.iima.or.jp/docs/newsletter/2023/nl2023.23.pdf
+
+
+https://iriscarbon.com/digital-esg-reporting-why-every-organization-must-adopt-the-same/
+
+https://www.nortonrosefulbright.com/nl-nl/knowledge/publications/915ef285/us-sec-proposes-new-esg-disclosure-rules-for-funds-and-advisers
+ESG disclosures to be structured in a machine-readable data language.
+
+
+https://www.xbrl.org/news/machine-readable-esg-disclosure-is-effective-esg-disclosure/
+https://www.theregreview.org/2023/01/23/becher-noy-could-financial-disclosures-curb-climate-change/
+
+- To that end, companies should make their disclosures machine-readable. To ensure machine readability, disclosures should be provided in an adequate digital format, include unique data identifiers, and have a structured layout and standardized taxonomy. This processing will enable humans to defer to machines and rely on technology to process the disclosed information.Likewise, big data and recent developments in artificial intelligence and sophisticated language models and reading tools—for instance, GPT-3—offer significant social and economic benefits. Presumably, they should turn reading, analyzing, and comparing disclosures into a simple, cheap, and easy task. These tools, however, are not a magic bullet, and they are prone to mistakes and adversarial attacks. At least for the foreseeable future, any proposed legislation mandating disclosures should consider the requirements, benefits, and limitations of machine-readable texts and automatic reading tools.
+
+***********************************************************************************************************************************************
+
+
+*２B. 炭素集約型（リスク、など）；carbon premium for energy industry + scope 1, ,2 3 all priced? implication of actual measuremnt introduction in 2025https://cdn.pficdn.com/cms1/pgim-fixed-income/sites/default/files/Decarbonisation%20theory%20vs%20reality_0.pdfAs a result, I become trapped in a strategy with good optics based on carbon footprint, but few realworld impacts.
+
+A final challenge with portfolio carbon footprinting is that it’s a poor evaluator of scope 3emissions, which are indirect emissions upstream and/or downstream in an issuer’s value chain. 
+
+
+tokyo risk or mispricinghttps://www.saa.or.jp/english/professional/pdf/2022_Goshima_Yagi.pdf
+https://www.ecgi.global/sites/default/files/working_papers/documents/doesthecarbonpremiumreflectriskormispricing.pdf
+https://corpgov.law.harvard.edu/2020/05/11/carbon-premium-around-the-world/
+
+missing datascope3
+https://www.gpif.go.jp/investment/trucost_report.pdf
+One major problem with this approach is double counting. Often, one company’s scope 3
+emissions are another’s scope 1 and 2 emissions. In the example of the auto maker, its
+upstream scope 3 emissions from sourcing a certain component would be the scope 1 and 2
+emissions of the component manufacturer. The result is that there can be significant double
+counting when scope 3 emissions are included in a portfolio’s aggregate carbon footprint. The
+amount of double counting is essentially impossible to accurately quantify, so any adjustment for
+double counting would be subject to a material margin of error.
+
+
+https://www.meti.go.jp/shingikai/energy_environment/transition_finance/finance_emission/pdf/001_04_00.pdf
+
+
+投融資の排出量（portfolio emission）を重視することにより、多排出産業への投融資控え等実体経済の脱炭素化に影響を及ぼしかねないことを認識。 ガイダンスにおいては上記懸念に対して、①ファイナンスド・エミッションとして原単位を用いる、②金融機関の取組を測る指標として、複数の指標を併せて使用する、という2つの方針が示されている。
+
+具体的には、将来の排出削減量を反映することができるよう、移行段階
+の取組として適切と判断したファイナンスド・エミッションの割合を開示する
+案を例示。
+ 
+
+*２A. investor&management: ESG premium（リスク、全体）SHAP
+https://www.smd-am.co.jp/market/ichikawa/2024/02/irepo240220/
+
+https://investec.ft.com/the-esg-premium-might-be-more-valuable-than-you-realise
+
+https://www.sciencedirect.com/science/article/abs/pii/S1057521922002472
+
+We arrive at two conclusions in the extended analysis. One is that ESG disclosure attracts ESG investors. Another is that ESG investors also play a positive moderating role in the connection between ESG ratings and financial performance.
+
+https://www.nber.org/system/files/working_papers/w30562/w30562.pdf
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3941514
+
+It is important to highlight that all raters’ scores are valuable. Disregarding scores of some raters amounts to discarding valuable information about the imperfectly measured ESG attributes. By combining information from several complementary ratings, one can obtain a more precise estimate of the impact of ESG performance on stock returns. It is also important to mention that our procedure does not produce or estimate a less noisy ESG score. Strictly speaking, our procedure only solves the problem of noise in estimating the relationship between ESG performance and stock returns. The impact of noise on the relationship between ESG performance and other variables (e.g., accounting measures of performance) is not addressed here, but might be evaluated using the same method.
+
+@Climate Sentiment and Corporate Default Risk: Evidence from Listed Firms in China's Heavily Polluting Industriehttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=4682934
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3697581
+
+***********************************************************************************************************************************************
+
+*３.: financing/lending/borrowing 融資・資金調達（銀行および借り手は全体）https://www.eba.europa.eu/sites/default/files/2023-12/e7bcc22e-7fc2-4ca9-b50d-b6e922f99513/EBA%20report%20on%20green%20loans%20and%20mortgages_0.pdf
+
+https://www.hbs.edu/ris/Publication%20Files/23-027_4b09d278-4051-468e-a5d9-eb0e7c50c25d.pdf
+- In the second set of analyses, we document that loans to high ESG risk borrowers are less likely to include granular (e.g., greenhouse gas emissions, workplace injury rate) rather than aggregate (e.g., ESG score) sustainability KPIs, presumably because high ESG risk borrowers do not have high quality internal management accounting control systems for the measurement of sustainability KPIs.- . Focusing on the use of ESG metrics in the credit market, we show that the targets commonlyincluded in sustainability-linked loans may not pressure borrowers towards substantial andmaterial ESG goals. These findings stand in contrast with prior papers documenting the positive influence of other ESG debt instruments (i.e., green bonds) as an effective commitment mechanismtowards ESG strategies (e.g., Flammer, 2021; Lu, 2021; Baker et al., 2022).
+Our empirical analyses are organized across two research questions. First, what
+type of borrowers are more likely to receive sustainability-linked financing? Second, how does a
+borrower’s ESG risk determine the characteristics of sustainability performance indicators and
+pricing incentives?
+
+Relatedly, we further find no evidence that ESG riskiness is related to
+sustainability KPI materiality and restrictiveness. C
+
+
+https://www.jcr.co.jp/en/pdf/greenfinance/Green_Finance_Evaluation_en_20221116.pdf
+
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4092506
+I find that exposed borrowers of affected banks improve their environmental and social (E&S) performance following the disclosure mandate. Consistent with banks enhancing both their engagement and selection activities, affected banks impose more environmental action covenants in loan contracts, and they are more likely to terminate a borrower with bad E&S records following the regulation. Further evidence shows that the transmission effects are stronger when a disclosure regulation is well enforced (as indicated by a greater increase in banks’ disclosure) and among borrowers with greater switching costs. Collectively, the findings document the role of lending relationships in transmitting the real effect of ESG disclosure regulations from banks to borrowing firms.
+
+
+***********************************************************************************************************************************************
+
+*４. management: SCM　サプライチェーンマネジメント（製造業など）https://assets.ceres.org/sites/default/files/tool/2017-03/ceres_SAQ.pdf
+
+
+***********************************************************************************************************************************************
+
+
+５.　特許、業務資本提携、MA（全体）https://link.springer.com/chapter/10.1007/978-3-031-53385-3_15
+
+ESG score patent gap -> energy firms oil etc.https://www.nber.org/system/files/working_papers/w27990/w27990.pdf
+
+
+https://sigfin.org/?plugin=attach&refer=027-06&openfile=06_SIG-FIN-27.pdf
+
+「エネルギー業界　特許　グリーン」
+https://transtool.japio.or.jp/work/carbon_neutral/
+
+https://news.panasonic.com/jp/press/jn220823-2
+https://lowcarbonpatentpledge.org/pledged-ip/
+
+
+GPT→業務・資本提携、M＆A特許明細書の記載を直接判断する方法も一つのアプローチですが、脱炭素技術のように広範な領域を網羅的に捉える場合、特許明細書の記載を直接判断することは難しい場合があります。特許明細書は非常に複雑であり、技術の特性や用途が明示されていることもありますが、特許分類コードが付与されていないため、特定の技術が脱炭素関連技術であるかどうかを正確に判断することが困難です。
+
+そのため、特許分類コードを活用することで、特許明細書の内容にかかわらず、特定の技術が脱炭素関連技術であるかどうかをより効率的に判断できます。Y02（気候変動緩和技術）とY04（スマートグリッド関連技術）の特許分類コードは、脱炭素技術に関連する幅広い技術領域をカバーしており、これらの分類を利用することで、より包括的かつ効率的な分析が可能になります。
+
+
+クラスタリング、因果抽出。特許明細書はカーボン以外にも応用可能
+
+creative response ETS明日エネ、https://prtimes.jp/main/html/rd/p/000000238.000058538.html
+https://project.nikkeibp.co.jp/ESG/atcl/column/00005/111400407/?P=2
+「多排出企業が自社の排出量をオフセットするという本来的な需要が生まれるのは、炭素賦課金や排出権の有償オークションが始まる30年前後ではないか」とSMBC日興証券の浅野達シニアESGアナリストは予想する。
+そもそも排出量取引は、脱炭素施策として有効なのか。EUは21年10月、発電や鉄鋼など多排出型産業の排出削減にEU ETSが大きく貢献しているとの報告書を公表した。根拠として、EU ETSの対象である多排出型産業の20年の排出削減率が制度開始の05年比で43%減だったのに対し、対象外の産業の削減率が16%減にとどまったことを挙げる。
+
+
+脱炭素トピック毎における相対的な進捗度合いの可視化
+https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/FIN-028/2022_156/_pdf
+
+==================================================================================================
+
+X. fundamental research politicshttps://www.jri.co.jp/en/MediaLibrary/file/english/periodical/jrirj/2023/11/moriguchi.pdf
+https://www.jri.co.jp/MediaLibrary/file/report/viewpoint/pdf/14460.pdf
+を高めるだけでなく、顧客や株主、従業員、社会との信頼関係構築等を通じて、企業価値の向上に
+寄与すると考えられる17。その意味において、米国の反 ESG 運動は、中期的に継続するとしても、
+より長期的にみれば次第に衰退に向かい、世界的な ESG 重視の潮流に収斂していくことが期待さ
+れる。したがって、企業（含む日本企業）としては、ESG 推進・反対両サイドの動きを注意深くモ
+ニターしつつも、米国の政治動向に左右されることなく、自社の存在意義（パーパス）や経営理念
+に沿って ESG を着実かつ継続的、戦略的に推進していくことが重要である。
+
+
+X. management: marketing
+https://www.proofx.xyz/knowledge-green-marketing/
+https://ondankataisaku.env.go.jp/coolchoice/pdf/glp_20230616.pdf
+
+https://www.bcg.com/ja-jp/publications/2023/understanding-a-sustainable-society
+環境負荷の少ない商品の購買に踏み出せない層の最大の理由は、過去調査と変わらず、情報不足。 購入したいが踏み出せない層の56%が「どの商品が環境負荷の少ない商品なのか、よくわからないから」と回答 • 今までのような「環境によい」「サステナブル」「エコ」といった漠然としたメッセージの訴求を続けるだけでは、 現状以上の消費者の行動変化は期待できない • 今後、消費者の行動変容をもう一段進めるためには、カーボンフットプリント1)や環境ラベル2)のような、より具体的・定量的 な環境に関する情報が必要ではないか
+
+「サステナビリティ 意識調査　消費者」
+
+
+
+BOJhttps://www.imes.boj.or.jp/jp/conference/finance/2022_slides/1111finws_slide2.pdf
+経済情勢を映じ、局面毎に各変動要因の寄与度や符号が変化していく結果が示された
+こうした「データに語らせる分析」は解釈に留意が必要であるが、構造モデルを補完する有益なツールとなりうる。
+
+https://www.boj.or.jp/research/wps_rev/wps_2023/data/wp23j03.pdf
+第一に、機械学習の応用により、財務指標と信用力の非線形的な関係が捕捉しやすくなり、順序ロジット対比で大幅に予測精度が改善した。第二に、 SHAP（SHapley AdditiveexPlanations）や PDP（Partial Dependence Plot）を用いてモデル予測値の要因分解を行うことで、売上高、総資産回転率や ICR といった財務指標が企業の信用力に与える影響が大きいことが分かったほか、ICR が 2 倍以下に低下すると信用力が急激に減少するといった非線形性が観察された。
+
+
+https://www.imes.boj.or.jp/research/papers/japanese/21-J-11.pdf
+
+OLS＋ML1 つ目のバイアスは、目的変数とコントロール変数が非線形の関係を持つ可能性があるにも関わらず、線形の関係を仮定していることから生じ得るバイアスである。2 つ目は、欠落変数バイアスである。すなわち、企業のパフォーマンスを目的変数、CO2 排出量を説明変数とする場合、コントロールすべき交絡因子（confounder）の候補は無数に存在するが、線形回帰モデルでは単純に全ての変数を採用することができない。先行研究では、特定のコントロール変数を選択的に採用しているが、この場合、欠落変数バイアスに十分に対処することは困難である4。そこで本研究では、多くの先行研究と同様に線形回帰モデルによる共分散分析を試行するとともに、目的変数とコントロール変数の線形関係の仮定に起因するバイアスと欠落変数バイアスに対処するため、Chernozhukov et al. [2018]が提案した DML を用いたセミパラメトリック・モデルによる分析もあわせて行う。
+
+
+<note>追加：https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/FIN-028/2022_144/_pdf/-char/ja
+https://www.imes.boj.or.jp/jp/conference/finance/2022_slides/1111finws_slide1.pdf
+https://sigfin.org/?plugin=attach&refer=027-06&openfile=06_SIG-FIN-27.pdf
+https://www.jstage.jst.go.jp/article/jsaisigtwo/2021/FIN-026/2021_09/_pdf/-char/ja
+https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/FIN-028/2022_156/_pdf
+
 
 ###
 https://www.imes.boj.or.jp/research/papers/japanese/21-J-11.pdf
