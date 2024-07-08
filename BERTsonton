@@ -1,3 +1,75 @@
+from sklearn.metrics import jaccard_score
+import numpy as np
+
+# List of pastry names in Japanese
+pastry_names = [
+    "紅茶のシュークリーム", "チョコレート入りパンケーキ", "抹茶クリームのプリン", "ブルーベリータルト", "あんこ入りどら焼き",
+    "かぼちゃのカステラ", "マロンクリームのシュー", "柚子味のワッフル", "さくらんぼのムースケーキ", "パイナップルのデニッシュ",
+    "あずきのベーグル", "いちごのパウンドケーキ", "チーズケーキのロールケーキ", "レモン風味のマカロン", "キャラメルのプリン",
+    "ミルクティーのベーグル", "ピスタチオのパイ", "りんごとシナモンのドーナツ", "マンゴーのタルト", "カフェオレのムース",
+    "マッチャのモンブラン", "メロンパン", "ブラウニーのチーズケーキ", "かすてら風の抹茶クッキー", "クリームチーズのフロランタン",
+    "チョコバナナのマフィン", "カスタードのパイ", "カラメルナッツのブリオッシュ", "オレンジ風味のクレープ", "グレープフルーツのシフォンケーキ",
+    "ブルーベリーチーズケーキ", "ショコラのエクレア", "プラムのクッキー", "マンダリンオレンジのパン", "ハニーレモンのマドレーヌ",
+    "ローズのババロア", "パッションフルーツのムースケーキ", "カシスとヨーグルトのパイ", "ショコラのスフレ", "ラズベリーチーズケーキ",
+    "グリーンティーのワッフル", "チェリーのカステラ", "クリームソーダのマカロン", "カフェモカのパウンドケーキ", "ホワイトチョコのプリン",
+    "グレープのブリオッシュ", "ラムレーズンのパイ", "フルーツゼリーのシュークリーム", "キウイフルーツのフィナンシェ", "パッションフルーツのタルト"
+]
+
+# Function to compute Jaccard similarity between two strings
+def jaccard_similarity(str1, str2):
+    set1 = set(str1)
+    set2 = set(str2)
+    return len(set1.intersection(set2)) / len(set1.union(set2))
+
+# Calculate Jaccard similarity matrix
+def compute_similarity_matrix(names):
+    similarity_matrix = np.zeros((len(names), len(names)))
+    for i in range(len(names)):
+        for j in range(len(names)):
+            similarity_matrix[i, j] = jaccard_similarity(names[i], names[j])
+    return similarity_matrix
+
+# Compute the similarity matrix
+similarity_matrix = compute_similarity_matrix(pastry_names)
+
+# Print the similarity matrix (for demonstration, we won't print the entire matrix here)
+print("Similarity Matrix:")
+print(similarity_matrix)
+
+
+
+from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
+import matplotlib.pyplot as plt
+
+# Perform hierarchical clustering
+Z = linkage(similarity_matrix, method='ward')
+
+# Plot dendrogram (optional)
+plt.figure(figsize=(12, 8))
+dendrogram(Z, labels=pastry_names, orientation='top')
+plt.title('Hierarchical Clustering Dendrogram')
+plt.xlabel('Pastry Names')
+plt.ylabel('Distance')
+plt.xticks(rotation=90)
+plt.show()
+
+# Determine clusters
+max_d = 0.7  # Adjust threshold as needed
+clusters = fcluster(Z, max_d, criterion='distance')
+
+# Print clusters and corresponding pastry names
+cluster_dict = {}
+for i, cluster_id in enumerate(clusters):
+    if cluster_id not in cluster_dict:
+        cluster_dict[cluster_id] = []
+    cluster_dict[cluster_id].append(pastry_names[i])
+
+# Print clusters and their associated pastry names
+for cluster_id, names in cluster_dict.items():
+    print(f"Cluster {cluster_id}: {', '.join(names)}")
+
+###############
+
 !pip install transformers
 !pip install sentence_transformers
 !pip install fugashi［unidic-lite]
