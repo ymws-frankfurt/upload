@@ -205,15 +205,26 @@ def bar_pytest():
 
 
 if __name__ == "__main__":
+    # bbb = BasisBarBuild(
+    #     inputfilepath='/app/data/raw_tick/spot/monthly/trades/BTCUSDT/',
+    #     period_start=8,
+    #     period_end=1, #-self.period_start:-self.period_end -> [-13:-1], [-25:-13]
+    #     threshold=5000000, # 500K leads to more frequent than one-minute per bar -> 5MM better
+    #     batch_size=10000000,
+    # )
+    # bbb.build_dollar_bars()  
+
+
     bbb = BasisBarBuild(
         inputfilepath='/app/data/raw_tick/spot/monthly/trades/BTCUSDT/',
         period_start=8,
         period_end=1, #-self.period_start:-self.period_end -> [-13:-1], [-25:-13]
-        threshold=5000000, # 500K leads to more frequent than one-minute per bar -> 5MM better
         batch_size=10000000,
     )
-    #bbb.build_dollar_bars()  
-    bbb.build_dollar_bars(output_path='/app/data/interim/df_timebar_streamingBTCUSDT7M.csv')
+    bbb.build_time_bars(
+        resolution="MIN", 
+        num_unit=5,
+        output_path='/app/data/interim/df_timebar_streamingBTCUSDT7M.csv')
 
     # '/app/data/raw_tick/spot/daily/trades/BTCUSDT/BTCUSDT-trades-2024-11-08.csv' # toy data
     # '/app/data/raw_tick/spot/monthly/trades/BTCUSDT/' # cursory treatment
