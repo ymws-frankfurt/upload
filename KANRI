@@ -1,4 +1,6 @@
 
+https://www.dropbox.com/scl/fi/lrjyypqrliq03v4wc7cif/binance_BTCUSDT_dollar_20170801-20250312_threshold36000000.csv?rlkey=28mbutrtaco2f216bi0oogsin&st=4dhkw64c&dl=0
+
 def get_sparse_ind_matrix(samples_info_sets, price_bars):
     """
     Creates a sparse indicator matrix where rows are timestamps and columns are label indices.
